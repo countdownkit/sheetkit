@@ -44,7 +44,7 @@ function layout({ title, desc, urlPath, h1, body }) {
 <body>
 <header class="site-head no-print"><div class="wrap">
   <a class="brand" href="${BASE}/">🖨️ ${SITE}</a>
-  <nav class="nav"><a href="${BASE}/#sign-in">Sign-In Sheets</a><a href="${BASE}/#sign-up">Sign-Up Sheets</a></nav>
+  <nav class="nav"><a href="${BASE}/#sign-in">Sign-In</a><a href="${BASE}/#sign-up">Sign-Up</a><a href="${BASE}/#logs">Logs</a></nav>
 </div></header>
 <main class="wrap">
   <div class="crumbs no-print"><a href="${BASE}/">Home</a> ›&nbsp;${h1}</div>
@@ -84,6 +84,12 @@ for (const f of fs.readdirSync(ASSETS)) fs.copyFileSync(path.join(ASSETS, f), pa
 const linkFor = s => ({ href: `/${s.slug}/`, emoji: s.emoji, label: s.title });
 const IN_SHEETS = SHEETS.filter(s => s.type === "in");
 const UP_SHEETS = SHEETS.filter(s => s.type === "up");
+const LOG_SHEETS = SHEETS.filter(s => s.type === "log");
+const GROUP = {
+  in: { list: IN_SHEETS, label: "sign-in" },
+  up: { list: UP_SHEETS, label: "sign-up" },
+  log: { list: LOG_SHEETS, label: "log" },
+};
 
 for (const s of SHEETS) {
   const urlPath = `/${s.slug}/`;
@@ -110,7 +116,7 @@ for (const s of SHEETS) {
     <tbody>${Array.from({ length: DEFAULT_ROWS }, (_, i) => `<tr><td class="rownum">${i + 1}</td>${s.cols.map(() => "<td></td>").join("")}</tr>`).join("\n")}</tbody></table>
   </div>`;
 
-  const related = (s.type === "in" ? IN_SHEETS : UP_SHEETS).filter(o => o.slug !== s.slug).map(linkFor)
+  const related = GROUP[s.type].list.filter(o => o.slug !== s.slug).map(linkFor)
     .concat(SHEETS.filter(o => o.generic && o.slug !== s.slug).map(linkFor));
 
   const body = `${controls}
@@ -121,7 +127,7 @@ for (const s of SHEETS) {
     <p>${s.tip}</p>
     <p><b>To print:</b> adjust the title, rows, and columns above (column headings are click-to-edit), then hit Print. <b>To save a PDF instead:</b> choose "Save as PDF" as the printer in the print dialog — same result, no software needed. Everything except the sheet is stripped from the printout automatically.</p>
   </div>
-  <h2 class="no-print">More ${s.type === "in" ? "sign-in" : "sign-up"} sheets</h2>
+  <h2 class="no-print">More ${GROUP[s.type].label} sheets</h2>
   <div class="no-print">${grid(related)}</div>
   <div class="ad-slot no-print">Advertisement</div>`;
 
@@ -137,6 +143,8 @@ for (const s of SHEETS) {
   ${grid(IN_SHEETS.map(linkFor).concat([linkFor(SHEETS.find(s => s.slug === "sign-in-sheet"))]))}
   <h2 id="sign-up">Sign-up sheets</h2>
   ${grid(UP_SHEETS.map(linkFor).concat([linkFor(SHEETS.find(s => s.slug === "sign-up-sheet"))]))}
+  <h2 id="logs">Log sheets &amp; trackers</h2>
+  ${grid(LOG_SHEETS.map(linkFor))}
   <div class="ad-slot no-print">Advertisement</div>
   <div class="prose"><p>These are working tools, not template downloads: the sheet you see on each page is the sheet that prints. Click a column heading to rename it, add rows for big groups, flip to landscape for wide tables, and the print stylesheet strips everything else off the page automatically.</p></div>`;
   writePage(`/`, layout({ title, desc, urlPath: `/`, h1: `Printable Sign-In &amp; Sign-Up Sheets`, body }));

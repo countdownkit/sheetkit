@@ -167,6 +167,156 @@
       "cols": ["Name", "Student's name", "Phone", "Background check on file?"],
       "blurb": "Field trip and school event chaperone sign-up, with the column schools actually need: whether the volunteer's background check is already on file.",
       "tip": "The background-check column saves the office a week of chasing — parents who need one can start the paperwork the same day they sign up."
+    },
+    {
+      "slug": "attendance-sheet", "title": "Weekly Attendance Sheet", "type": "in", "emoji": "📅",
+      "cols": ["Name", "Mon", "Tue", "Wed", "Thu", "Fri"],
+      "blurb": "A one-week attendance grid for classes, clubs, teams, and small programs: names down the side, days across the top, a check or initial in each box.",
+      "tip": "Write the week's dates into the day headings before printing (click to edit) — 'Mon 3/9' beats a stack of identical undated grids at the end of the term."
+    },
+    {
+      "slug": "contractor-sign-in-sheet", "title": "Job Site Sign-In Sheet", "type": "in", "emoji": "👷",
+      "cols": ["Name", "Company / trade", "Time in", "Time out", "Badge / PPE checked?"],
+      "blurb": "Daily entry log for construction and job sites: every worker and visitor on site, when they arrived, and when they left. In an emergency muster, this sheet is the headcount.",
+      "tip": "Keep the completed sheets with the job file — site attendance records settle more subcontractor billing disputes than anyone expects."
+    },
+    {
+      "slug": "school-pickup-sign-out-sheet", "title": "School Pick-Up Sign-Out Sheet", "type": "in", "emoji": "🚸",
+      "cols": ["Student's name", "Adult picking up", "Relationship", "Time", "Signature"],
+      "blurb": "Early-dismissal and end-of-day release log for schools and after-care: which adult took which child, when, with a signature on the line.",
+      "tip": "Check the adult against the student's authorized pick-up list before they sign, not after — the signature documents the release; the list check prevents the wrong one."
+    },
+    {
+      "slug": "classroom-sign-out-sheet", "title": "Classroom Sign-Out Sheet (Hall Pass Log)", "type": "in", "emoji": "🚪",
+      "cols": ["Name", "Destination", "Time out", "Time in"],
+      "blurb": "A hall pass log for the classroom door: who left, where they went, and how long they were gone — one sheet replaces a semester of verbal permissions.",
+      "tip": "The pattern matters more than any single row: the same name missing twenty minutes every day at the same period is information a paper log makes visible."
+    },
+    {
+      "slug": "guest-sign-in-sheet", "title": "Guest Sign-In Sheet", "type": "in", "emoji": "🛎️",
+      "cols": ["Name", "Visiting from", "Date", "Notes"],
+      "blurb": "A general guest register for guest houses, vacation rentals, clubhouses, and events — simpler than a visitor log, friendlier than a form.",
+      "tip": "For a rental or guest house, the 'visiting from' and notes columns turn the sheet into a guest book people actually enjoy signing — leave a pen that works."
+    },
+    {
+      "slug": "church-attendance-sheet", "title": "Church Attendance Sheet", "type": "in", "emoji": "🙏",
+      "cols": ["Name", "Member or visitor?", "Contact (if visitor)"],
+      "blurb": "Service attendance record for congregations that count — membership reports, average attendance tracking, and a gentle way to spot visitors to welcome.",
+      "tip": "Pass it during announcements, not the sermon — sheets circulated mid-message come back half blank."
+    },
+    {
+      "slug": "sunday-school-sign-in-sheet", "title": "Sunday School Sign-In Sheet", "type": "in", "emoji": "📖",
+      "cols": ["Child's name", "Class / room", "Parent/guardian", "Pickup by", "Time out"],
+      "blurb": "Check-in sheet for Sunday school and children's church: which class each child is in, who dropped them off, and who's authorized to collect them.",
+      "tip": "Note allergies beside the child's name at drop-off — the volunteer serving snacks at 10:45 can't go find a parent to ask."
+    },
+    {
+      "slug": "food-pantry-sign-in-sheet", "title": "Food Pantry Sign-In Sheet", "type": "in", "emoji": "🥫",
+      "cols": ["Name", "Household size", "Zip code", "Time"],
+      "blurb": "Client sign-in for food pantries and distribution events — the household and zip columns are what monthly grant and food-bank reports are built from.",
+      "tip": "Match the columns to what your food bank actually asks for in reports, and nothing more — every extra question slows the line and costs dignity."
+    },
+    {
+      "slug": "salon-sign-in-sheet", "title": "Salon Sign-In Sheet", "type": "in", "emoji": "💇",
+      "cols": ["Name", "Appointment or walk-in?", "Stylist requested", "Time in"],
+      "blurb": "Front-desk sheet for salons and barbershops that take walk-ins: keeps the order fair and visible, which kills the 'I was next' argument before it starts.",
+      "tip": "Keep the clipboard facing the room — a queue everyone can see polices itself."
+    },
+    {
+      "slug": "tutoring-sign-in-sheet", "title": "Tutoring Sign-In Sheet", "type": "in", "emoji": "✏️",
+      "cols": ["Student name", "Subject", "Time in", "Time out", "Tutor initials"],
+      "blurb": "Session log for tutoring centers and school help labs — attendance for billing, funding reports, and showing parents the hours actually happened.",
+      "tip": "Tutor initials per session, not per page: initialed rows are billing records, blank ones are arguments."
+    },
+    {
+      "slug": "library-sign-in-sheet", "title": "Library / Computer Lab Sign-In Sheet", "type": "in", "emoji": "💻",
+      "cols": ["Name", "Computer # / purpose", "Time in", "Time out"],
+      "blurb": "Usage log for libraries, computer labs, and makerspaces — who used which station and when, for both fair-use limits and the usage stats budgets depend on.",
+      "tip": "Those daily counts are ammunition at budget time — 'the lab logged 340 sessions last month' beats 'the lab feels busy.'"
+    },
+    {
+      "slug": "tryout-sign-in-sheet", "title": "Tryout Sign-In Sheet", "type": "in", "emoji": "🏅",
+      "cols": ["Name", "Grade / age", "Position / event", "Contact", "Number assigned"],
+      "blurb": "Registration sheet for team tryouts and auditions: who showed up, what they're trying out for, and the pinny or number the coaches will actually remember them by.",
+      "tip": "Assign numbers at sign-in and evaluate by number — coaches rating 'red pinny 14' stay more objective than coaches rating names they recognize."
+    },
+    {
+      "slug": "equipment-checkout-sheet", "title": "Equipment Checkout Sheet", "type": "log", "emoji": "🔧",
+      "cols": ["Item", "Checked out by", "Date out", "Due back", "Returned", "Initials"],
+      "blurb": "Sign-out log for tools, gear, devices, and keys — the missing-equipment problem is almost always a missing-record problem.",
+      "tip": "The 'due back' column is what changes behavior: an open-ended loan is a gift; a date is a loan."
+    },
+    {
+      "slug": "delivery-log-sheet", "title": "Delivery Log Sheet", "type": "log", "emoji": "📦",
+      "cols": ["Date", "Carrier", "Package for", "Received by", "Picked up / delivered to"],
+      "blurb": "Package log for front desks, mailrooms, and apartment offices: what arrived, who signed for it, and who ultimately took it — the paper trail that ends 'my package disappeared' disputes.",
+      "tip": "The last column is the one that matters in a dispute; a package 'received' but never 'picked up' is a very different conversation than one signed out."
+    },
+    {
+      "slug": "medication-log-sheet", "title": "Medication Log Sheet", "type": "log", "emoji": "💊",
+      "cols": ["Date", "Time", "Medication", "Dose", "Given by (initials)", "Notes"],
+      "blurb": "Daily medication record for caregivers, home health, and anyone managing several prescriptions — the honest answer to 'did mom get her 2pm dose?' is a written one.",
+      "tip": "Log at the moment of giving, never from memory at night — double-dosing almost always starts with 'I'm pretty sure I gave it.' This is a home record, not a substitute for medical advice."
+    },
+    {
+      "slug": "mileage-log-sheet", "title": "Mileage Log Sheet", "type": "log", "emoji": "🚗",
+      "cols": ["Date", "From → To", "Purpose", "Odometer start", "Odometer end", "Miles"],
+      "blurb": "Vehicle mileage log for business, medical, and charitable driving — the IRS expects a contemporaneous record with date, destination, purpose, and miles, which is exactly these columns.",
+      "tip": "Keep it in the car and fill it at the wheel; a log reconstructed in April from a calendar is the kind an audit takes apart."
+    },
+    {
+      "slug": "cleaning-log-sheet", "title": "Cleaning Log Sheet", "type": "log", "emoji": "🧹",
+      "cols": ["Date", "Time", "Area cleaned", "Cleaned by (initials)", "Notes"],
+      "blurb": "Posted cleaning record for restrooms, kitchens, and shared spaces — part compliance paperwork, part public proof that somebody actually comes through every two hours.",
+      "tip": "Post it where customers can see it; a visibly initialed log changes how both staff and the public treat the room."
+    },
+    {
+      "slug": "temperature-log-sheet", "title": "Temperature Log Sheet", "type": "log", "emoji": "🌡️",
+      "cols": ["Date", "Time", "Unit (fridge/freezer)", "Temp (°F)", "Initials", "Corrective action"],
+      "blurb": "Food-safety temperature log for fridges, freezers, and hot-holding — health inspectors ask for exactly this record, filled in at the stated frequency, with corrective actions noted.",
+      "tip": "Fridges at or below 40°F, freezers at 0°F. The corrective-action column is what inspectors read first: a logged '45°F — moved stock, called service' is compliance; a silent gap is a violation."
+    },
+    {
+      "slug": "blood-pressure-log-sheet", "title": "Blood Pressure Log Sheet", "type": "log", "emoji": "❤️",
+      "cols": ["Date", "Time", "Systolic", "Diastolic", "Pulse", "Notes"],
+      "blurb": "Home blood-pressure record to bring to appointments — doctors adjust treatment based on patterns over weeks, and a filled-in log beats a phone full of scattered readings.",
+      "tip": "Measure at the same times daily, seated and rested a few minutes, and log both numbers plus anything unusual (stress, missed meds, salty meal). This is a tracking aid, not medical advice."
+    },
+    {
+      "slug": "secret-santa-sign-up-sheet", "title": "Secret Santa Sign-Up Sheet", "type": "up", "emoji": "🎁",
+      "cols": ["Name", "Email or phone", "Gift ideas / sizes", "Things to avoid"],
+      "blurb": "Sign-up sheet for the office or family gift exchange, with the two columns that save every Secret Santa: what they'd love, and what to avoid (allergies, no candles, no mugs — ever again).",
+      "tip": "Set the budget in the title line before it circulates. Every bad exchange story starts with two people who had different numbers in mind."
+    },
+    {
+      "slug": "meal-train-sign-up-sheet", "title": "Meal Train Sign-Up Sheet", "type": "up", "emoji": "🍲",
+      "cols": ["Date", "Name", "Meal you're bringing", "Drop-off time"],
+      "blurb": "Meal schedule for a family with a new baby, an illness, or a loss — claim a date, note the dish, and the family eats for two weeks without answering twenty texts.",
+      "tip": "Write the family's dietary notes and porch-drop-off instructions in the title line — the point of a meal train is that nobody has to ask the family anything."
+    },
+    {
+      "slug": "raffle-entry-sheet", "title": "Raffle Entry Sheet", "type": "up", "emoji": "🎟️",
+      "cols": ["Name", "Phone or email", "Tickets bought", "Ticket #s"],
+      "blurb": "Entry record for raffles and door-prize drawings: who bought in, how to reach the winner, and which numbers are theirs when the stub bucket disagrees.",
+      "tip": "Record ticket number ranges as you sell ('#41–45'), not after — the entry sheet is the tiebreaker when a stub is smudged or missing."
+    },
+    {
+      "slug": "bake-sale-sign-up-sheet", "title": "Bake Sale Sign-Up Sheet", "type": "up", "emoji": "🧁",
+      "cols": ["Name", "Item", "Quantity", "Nut-free?", "Labeled with ingredients?"],
+      "blurb": "Contribution sheet for bake sales with the two columns that matter in a school cafeteria: allergy status and whether the item arrives ingredient-labeled.",
+      "tip": "Many schools now require ingredient labels on every item — putting the column on the sign-up sheet means bakers know before they bake, not at the table."
+    },
+    {
+      "slug": "thanksgiving-potluck-sign-up-sheet", "title": "Thanksgiving Potluck Sign-Up Sheet", "type": "up", "emoji": "🦃",
+      "cols": ["Name", "Dish", "Serves", "Category (turkey / side / pie)"],
+      "blurb": "The Thanksgiving version of the potluck sheet — because the failure mode is specific: four green bean casseroles, six pies, and nobody assigned to the turkey.",
+      "tip": "Assign the turkey and gravy by name at the top of the sheet before it circulates; sides and pies take care of themselves."
+    },
+    {
+      "slug": "christmas-potluck-sign-up-sheet", "title": "Christmas Potluck Sign-Up Sheet", "type": "up", "emoji": "🎄",
+      "cols": ["Name", "Dish", "Serves", "Category (main / side / dessert)"],
+      "blurb": "Holiday party potluck organizer for office and family gatherings — who's bringing what, sized to the headcount, spread across courses instead of nine trays of cookies.",
+      "tip": "Write course quotas at the top ('3 mains, 4 sides, 3 desserts') and list any dietary needs in the title line so cooks plan for them from the start."
     }
   ]
 }

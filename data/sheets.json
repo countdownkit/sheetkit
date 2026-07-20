@@ -1,0 +1,172 @@
+{
+  "sheets": [
+    {
+      "slug": "sign-in-sheet", "title": "Sign-In Sheet", "generic": true, "type": "in", "emoji": "📝",
+      "cols": ["Name", "Time in", "Time out", "Signature"],
+      "blurb": "A general-purpose sign-in sheet that works for meetings, events, offices, and classes: name, time in, time out, and a signature column.",
+      "tip": "If you only need names and arrival times, click the last two column headings and retype them — every column heading on this sheet is editable."
+    },
+    {
+      "slug": "sign-up-sheet", "title": "Sign-Up Sheet", "generic": true, "type": "up", "emoji": "🙋",
+      "cols": ["Name", "What you're signing up for", "Phone or email"],
+      "blurb": "A blank sign-up sheet for anything people volunteer to do or bring: shifts, dishes, supplies, time slots, committees.",
+      "tip": "Put an example in row one before you print (\"Jane — paper plates\") — a seeded first row doubles how quickly the rest fills in."
+    },
+    {
+      "slug": "daycare-sign-in-sheet", "title": "Daycare Sign-In & Out Sheet", "type": "in", "emoji": "🧸",
+      "cols": ["Child's name", "Parent/guardian", "Time in", "Initials", "Time out", "Initials"],
+      "blurb": "Daily attendance sheet for daycare drop-off and pick-up, with initials at both ends of the day. Most state licensing rules require a written record of exactly this: who brought the child, when, and who took them home.",
+      "tip": "Keep completed sheets — most states require daycare attendance records to be retained for several years, and they're your documentation in any dispute about pick-up."
+    },
+    {
+      "slug": "preschool-sign-in-sheet", "title": "Preschool Sign-In Sheet", "type": "in", "emoji": "🎒",
+      "cols": ["Child's name", "Adult signing in", "Time in", "Time out", "Adult signing out"],
+      "blurb": "Classroom sign-in for preschool and pre-K programs — a clean daily record of arrivals, departures, and which adult was on each end.",
+      "tip": "Print one per classroom per day and have staff file them weekly; a dated stack beats one long running sheet when licensing asks for a specific day."
+    },
+    {
+      "slug": "aa-meeting-sign-in-sheet", "title": "AA / NA Meeting Sign-In Sheet", "type": "in", "emoji": "🤝",
+      "cols": ["First name or initials", "Time in", "Time out", "Notes"],
+      "blurb": "Attendance sheet for AA, NA, and other anonymous fellowship meetings. First names or initials only — anonymity is the tradition, so the sheet asks for nothing more.",
+      "tip": "If attendees need court-verified proof of attendance, that's usually a separate slip the chairperson signs per person — this sheet is the group's own record. Check what format the court accepts."
+    },
+    {
+      "slug": "open-house-sign-in-sheet", "title": "Open House Sign-In Sheet", "type": "in", "emoji": "🏡",
+      "cols": ["Name", "Phone", "Email", "Working with an agent?"],
+      "blurb": "Real-estate open house guest register: every visitor becomes a documented lead with contact info and agent status, and a sign-in record is a basic security practice when strangers walk through a listing.",
+      "tip": "Ask visitors to sign in as a safety requirement, not a favor — compliance jumps when it's framed as \"the seller asks that all guests register.\""
+    },
+    {
+      "slug": "office-visitor-sign-in-sheet", "title": "Visitor Sign-In Sheet (Office)", "type": "in", "emoji": "🏢",
+      "cols": ["Name", "Company", "Visiting", "Time in", "Time out", "Badge #"],
+      "blurb": "Front-desk visitor log for offices and facilities: who's in the building, who they're seeing, and when they left. In an evacuation, this sheet is your visitor headcount.",
+      "tip": "If visits are confidential (law, medical, HR), use a fresh sheet per visitor or a privacy-folded log — a full sheet on a clipboard shows every previous visitor's name."
+    },
+    {
+      "slug": "employee-sign-in-sheet", "title": "Employee Sign-In Sheet", "type": "in", "emoji": "🕐",
+      "cols": ["Employee name", "Time in", "Time out", "Total hours", "Signature"],
+      "blurb": "Daily employee attendance and hours record with a signature column — a paper backstop for payroll when there's no time clock, or when the time clock is down.",
+      "tip": "Have employees total their own hours and sign; a signed self-reported record carries far more weight in a wage dispute than a manager-filled one."
+    },
+    {
+      "slug": "meeting-sign-in-sheet", "title": "Meeting Sign-In Sheet", "type": "in", "emoji": "📋",
+      "cols": ["Name", "Title / department", "Email", "Signature"],
+      "blurb": "Attendance record for board meetings, HOA meetings, public hearings, and committees — minutes say what was decided; the sign-in sheet proves who was in the room.",
+      "tip": "For meetings with a quorum requirement, count signatures against the roster before starting old business — not after."
+    },
+    {
+      "slug": "class-attendance-sheet", "title": "Class Attendance Sheet", "type": "in", "emoji": "🏫",
+      "cols": ["Student name", "Student ID", "Signature"],
+      "blurb": "Per-session attendance sheet for classes, workshops, and lectures where students sign themselves in.",
+      "tip": "Date every sheet before it circulates. An undated attendance sheet is worthless the moment two of them end up in the same folder."
+    },
+    {
+      "slug": "training-sign-in-sheet", "title": "Training Sign-In Sheet", "type": "in", "emoji": "🎓",
+      "cols": ["Name", "Department", "Employee ID", "Signature"],
+      "blurb": "Documentation-grade attendance for workplace training: for OSHA, HR, and compliance topics, the signed sheet IS the proof that training happened.",
+      "tip": "Write the course title, trainer, and date on the sheet title line before printing — auditors want the what and who on the same page as the signatures."
+    },
+    {
+      "slug": "patient-sign-in-sheet", "title": "Patient Sign-In Sheet", "type": "in", "emoji": "🩺",
+      "cols": ["Name", "Appointment time", "Arrival time", "Provider"],
+      "blurb": "Front-desk sign-in for clinics and medical offices. HIPAA permits sign-in sheets as an \"incidental disclosure\" as long as they don't reveal the reason for the visit.",
+      "tip": "Never add a \"reason for visit\" column — that's the line between a permitted sign-in sheet and a HIPAA problem. Name, time, and provider are fine."
+    },
+    {
+      "slug": "event-sign-in-sheet", "title": "Event Sign-In Sheet", "type": "in", "emoji": "🎟️",
+      "cols": ["Name", "Email", "Phone", "How did you hear about us?"],
+      "blurb": "Guest register for community events, fundraisers, and grand openings — attendance count and mailing list in one pass.",
+      "tip": "The last column is the one you'll actually use later: knowing which channel brought people is worth more than the headcount."
+    },
+    {
+      "slug": "volunteer-sign-in-sheet", "title": "Volunteer Sign-In Sheet", "type": "in", "emoji": "💪",
+      "cols": ["Name", "Organization", "Task / area", "Time in", "Time out"],
+      "blurb": "Hours tracking for volunteer days and service events. Many volunteers need documented hours for school, court, or employer matching programs — this sheet is that documentation.",
+      "tip": "Total each volunteer's hours at the bottom before filing; nonprofits report volunteer hours for grants, and a pre-totaled sheet saves the bookkeeper real time."
+    },
+    {
+      "slug": "church-visitor-sign-in-sheet", "title": "Church Visitor Sign-In Sheet", "type": "in", "emoji": "⛪",
+      "cols": ["Name", "Email or phone", "First visit?", "Would you like a follow-up?"],
+      "blurb": "Welcome-table register for church visitors and guests, with an explicit opt-in column so follow-up goes only to people who asked for it.",
+      "tip": "The \"would you like a follow-up?\" column matters: contacting only the yes rows gets warmer responses than cold-calling every name."
+    },
+    {
+      "slug": "church-nursery-sign-in-sheet", "title": "Church Nursery Sign-In Sheet", "type": "in", "emoji": "👶",
+      "cols": ["Child's name", "Parent/guardian", "Pickup code / tag #", "Time in", "Time out"],
+      "blurb": "Check-in sheet for church nurseries and children's ministry, with a pickup code column so children are released only to the adult holding the matching tag.",
+      "tip": "Add allergy notes next to the child's name at drop-off — the nursery worker who needs that information at 11:40 won't have time to find a parent."
+    },
+    {
+      "slug": "gym-class-sign-in-sheet", "title": "Gym Class Sign-In Sheet", "type": "in", "emoji": "🏋️",
+      "cols": ["Name", "Membership #", "Class", "Time"],
+      "blurb": "Class attendance sheet for gyms and fitness studios — capacity control at the door and a record of which classes actually fill.",
+      "tip": "Keep the filled sheets a month before recycling: class-by-class attendance is exactly the data you want when deciding the next schedule."
+    },
+    {
+      "slug": "community-service-sign-in-sheet", "title": "Community Service Hours Sheet", "type": "in", "emoji": "⚖️",
+      "cols": ["Name", "Date", "Time in", "Time out", "Hours", "Supervisor signature"],
+      "blurb": "Hours log for court-ordered community service and school service requirements. The supervisor signature per session is what makes the hours count.",
+      "tip": "Courts and schools usually want their own cover form as the official total — but they accept a per-session log like this as the backup detail. Sign every session, not just the last one."
+    },
+    {
+      "slug": "safety-meeting-sign-in-sheet", "title": "Safety Meeting Sign-In Sheet", "type": "in", "emoji": "🦺",
+      "cols": ["Name", "Company / trade", "Signature"],
+      "blurb": "Toolbox talk and safety briefing attendance sheet for job sites. When OSHA asks whether workers were trained on a hazard, this signed sheet is the answer.",
+      "tip": "Write the topic and date on the title line before it circulates, and staple it to the talk outline — topic plus signatures on one page is what closes an audit finding."
+    },
+    {
+      "slug": "job-fair-sign-in-sheet", "title": "Job Fair Sign-In Sheet", "type": "in", "emoji": "💼",
+      "cols": ["Name", "Email", "Phone", "Position of interest", "Resume received?"],
+      "blurb": "Candidate intake sheet for job fairs and hiring events — every conversation becomes a contact with the role they wanted and whether you're holding their resume.",
+      "tip": "Mark the strong candidates on the sheet in real time (a star in the margin works) — by hour three, memory alone won't rank them."
+    },
+    {
+      "slug": "potluck-sign-up-sheet", "title": "Potluck Sign-Up Sheet", "type": "up", "emoji": "🥘",
+      "cols": ["Name", "Dish you're bringing", "Serves", "Category (main / side / dessert)"],
+      "blurb": "The classic potluck organizer: who's bringing what, how much it serves, and which course — so the table isn't nine desserts and one casserole.",
+      "tip": "Write category quotas at the top before it circulates (\"we need 4 mains, 4 sides, 3 desserts\") — people sign up for what's still needed instead of defaulting to brownies."
+    },
+    {
+      "slug": "volunteer-sign-up-sheet", "title": "Volunteer Sign-Up Sheet", "type": "up", "emoji": "🙌",
+      "cols": ["Name", "Task / shift", "Phone", "Email"],
+      "blurb": "Task and shift sign-up for events, cleanups, and school functions — list the slots you need filled and let people claim them.",
+      "tip": "Pre-fill the task column with the actual shifts before printing (\"Setup 8–10\", \"Cleanup 2–4\") — blank task columns collect vague promises, named shifts collect commitments."
+    },
+    {
+      "slug": "snack-sign-up-sheet", "title": "Snack Sign-Up Sheet", "type": "up", "emoji": "🍎",
+      "cols": ["Date / week", "Family name", "Snack you'll bring"],
+      "blurb": "Rotating snack schedule for classrooms, teams, and playgroups — each family claims a date and the teacher stops buying crackers out of pocket.",
+      "tip": "Note allergy rules in the title line (\"nut-free classroom\") so the reminder is on the same page people write on."
+    },
+    {
+      "slug": "party-food-sign-up-sheet", "title": "Party Food Sign-Up Sheet", "type": "up", "emoji": "🎉",
+      "cols": ["Name", "Item", "Quantity / serves"],
+      "blurb": "Who-brings-what list for office parties, team lunches, and family gatherings — simpler than a potluck sheet when you just need items covered.",
+      "tip": "List the needed items yourself and leave only the name column blank — \"claim an item\" fills a table twice as fast as \"bring something.\""
+    },
+    {
+      "slug": "event-registration-sheet", "title": "Event Registration Sheet", "type": "up", "emoji": "🗓️",
+      "cols": ["Name", "Email", "Phone", "# attending"],
+      "blurb": "Paper registration for events that take walk-up signups — headcount, contact list, and party size in one place.",
+      "tip": "The \"# attending\" column is the one people forget to ask for — it's the difference between 40 names and knowing to set up 95 chairs."
+    },
+    {
+      "slug": "time-slot-sign-up-sheet", "title": "Time Slot Sign-Up Sheet", "type": "up", "emoji": "⏰",
+      "cols": ["Time slot", "Name", "Phone or email"],
+      "blurb": "Appointment-style sign-up for parent-teacher conferences, photo sessions, interviews, and anything else that runs in slots.",
+      "tip": "Fill the time-slot column in before printing, including breaks you want protected — an empty 12:00 row WILL get claimed."
+    },
+    {
+      "slug": "carpool-sign-up-sheet", "title": "Carpool Sign-Up Sheet", "type": "up", "emoji": "🚗",
+      "cols": ["Driver", "Seats available", "Phone", "Pickup area"],
+      "blurb": "Ride-share organizer for teams, field trips, and church groups — drivers list seats, riders match by pickup area.",
+      "tip": "Collect it a full day before departure and text assignments the night before; a carpool sheet read aloud in the parking lot is chaos."
+    },
+    {
+      "slug": "chaperone-sign-up-sheet", "title": "Chaperone Sign-Up Sheet", "type": "up", "emoji": "🎫",
+      "cols": ["Name", "Student's name", "Phone", "Background check on file?"],
+      "blurb": "Field trip and school event chaperone sign-up, with the column schools actually need: whether the volunteer's background check is already on file.",
+      "tip": "The background-check column saves the office a week of chasing — parents who need one can start the paperwork the same day they sign up."
+    }
+  ]
+}

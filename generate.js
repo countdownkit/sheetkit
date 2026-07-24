@@ -55,7 +55,7 @@ function layout({ title, desc, urlPath, h1, body }) {
 </main>
 <footer class="site-foot no-print"><div class="wrap">
   <a href="${BASE}/">Home</a><a href="${BASE}/#sign-in">Sign-In Sheets</a><a href="${BASE}/#sign-up">Sign-Up Sheets</a>
-  <span>· ${SITE} — free printable sign-in and sign-up sheets. No downloads, no signups: customize and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>.</span>
+  <span>· ${SITE} — free printable sign-in and sign-up sheets. No downloads, no signups: customize and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
 </div></footer>
 <script src="${BASE}/tool.js" defer></script>
 </body>
